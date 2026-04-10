@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (large files)
+*.csv
+*.tsv
+*.parquet
+*.pkl
+*.h5
+*.hdf5
+data/raw/
+data/processed/
+
+# Model files
+*.model
+*.joblib
+*.pb
+saved_model/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Secrets / environment variables
+.env
+secrets.yaml
